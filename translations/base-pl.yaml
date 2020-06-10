@@ -21,7 +21,7 @@
 
 steamPage:
     # This is the short text appearing on the steam page
-    shortText: shapez.io is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+    shortText: shapez.io to gra o budowaniu fabryk w celu automatyzacji tworzenia i łączenia coraz bardziej złożonych kształtów na nieskończonej mapie.
 
     # This is the long description for the steam page - It is contained here so you can help to translate it, and I will regulary update the store page.
     # NOTICE:
@@ -30,45 +30,45 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io to gra o budowaniu fabryk w celu automatyzacji tworzenia i łączenia kształtów. Dostarczaj wymagane, coraz bardziej złożone kształty, aby rozwijać się w grze i odblokuj ulepszenia, aby przyspieszyć fabrykę.
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
+        Ponieważ rośnie zapotrzebowanie, będziesz musiał rozbudować fabrykę, aby dopasować ją do potrzeb - nie zapominaj jednak o zasobach, będziesz musiał rozszerzyć [b]nieskończoną mapę[/b]!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
+        Ponieważ kształty mogą się wkrótce znudzić, musisz mieszać kolory i malować nimi kształty - Łącz zasoby w kolorze czerwonym, zielonym i niebieskim, aby uzyskać różne kolory i pomalować kształty, aby zaspokoić popyt.
 
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned! 
+        Ta gra ma 18 poziomów (które powinny tobie zająć na wiele godzin!), Ale nieustannie dodaję nową zawartość - jest wiele planów! 
 
 
-        [b]Standalone Advantages[/b]
-
-        [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
-        [/list]
-
-        [b]Planned features & Community suggestions[/b]
-
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        [b]Zalety pełnej wersji[/b]
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Znaczniki
+            [*] Niskończone mijesce na zapisy gry
+            [*] Ciemne tło
+            [*] Więcej ustawień
+            [*] Pomoc w rozwijaniu shapez.io ❤️
+            [*] Więcej aktualizacji w przyszłości!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        [b]Planowane aktualizacje i Sugestie społeczności[/b]
+
+        Ta gra ma otwart kod źródłowy - Każdy może wnieść swój wkład! Poza tym, słucham [b]Dużo[/b] społeczniści! Staram się czytać wszystkie sugestie i brać pod uwagę jak najwięcej opinii.
+
+        [list]
+            [*] Tryb histori gdzie budowle będą kosztować rózne kształty
+            [*] Więcej poziomów i budowli More levels & buildings (ekskluzywnie dla pełnej wersji)
+            [*] Różne mapy, i może przeszkody na mapie
+            [*] Konfigurowalne tworzenie map (Edycja wielkości zasobów, ziarna, i więcej)
+            [*] Więcej kształtów
+            [*] Ulepszenia w wydajności (Choć gra już teraz dobrze chodzi!)
+            [*] Tryb dla daltonistów
+            [*] I o wiele więcej!
+        [/list]
+
+        Koniecznie sprawdź moją tablicę na Trello! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
+    loading: Ładowanie
     error: Error
 
     # How big numbers are rendered, e.g. "10,000"
@@ -86,21 +86,21 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: sekundę temu
+        xSecondsAgo: <x> sekund temu
+        oneMinuteAgo: minuta temu
+        xMinutesAgo: <x> minut temu
+        oneHourAgo: godzina temu
+        xHoursAgo: <x> godzin temu
+        oneDayAgo: dzieć temu
+        xDaysAgo: <x> dni temu
 
         # Short formats for times, e.g. '5h 23m'
-        secondsShort: <seconds>s
-        minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>s
+        secondsShort: <seconds>sek.
+        minutesAndSecondsShort: <minutes>min. <seconds>sek.
+        hoursAndMinutesShort: <hours>godz. <minutes>sek.
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minuty
 
     keys:
         tab: TAB
@@ -112,35 +112,35 @@ global:
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
-    title: Demo Version
+    title: Wersja demo
     intro: >-
-        Get the standalone to unlock all features!
+        Kup pełną wersję aby odblokować wszystkie dostępne funkcje!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
+    play: Graj
+    changelog: Dziennik zmian
+    importSavegame: Importuj
+    openSourceHint: Ta gra ma otwarty kod źródłowy!
+    discordLink: Oficjalny serwer Discord
+    helpTranslate: Wspomóż tłumaczenie!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Wybacz, ale gra chodzi za wolno na twojej przeglądarce! Kup pełną wersję lub zainststaluj przeglądarkę chrome dla pełnych doznań!
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Poziom <x>
+    savegameLevelUnknown: Nie znany poziom
 
     contests:
         contest_01_03062020:
             title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            desc: Wygrana <strong>$25</strong> za najlepszą bazę!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                By dać ci coś w zamian, pomyślałem że było by fajnie zrobić co tygodniowe konkursy!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>Temat na ten tydzień:</strong> Zbuduj naj fajniejszą bazę!
                 <br><br>
-                Here's the deal:<br>
+                Oto oferta:<br>
                 <ul class="bucketList">
                     <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
                     <li>Bonus points if you share it on social media!</li>
